@@ -1,0 +1,128 @@
+.header{
+    display: inline;
+}
+
+.header_menu{
+    display: inline;
+
+}
+
+a:link{
+    color: black;
+    text-decoration: none;
+    background-color: cadetblue;
+}
+
+a:visited{
+    color: black;
+    text-decoration: none;
+    background-color: cadetblue;
+}
+
+a:hover{
+    color: black;
+    text-decoration: underline;
+}
+
+input:focus{
+    outline: none;
+}
+
+nav ul{
+    margin:0;
+    padding: 5px 13%;
+}
+
+nav ul li{
+    display: inline;
+    padding: 5px 13%;
+}
+
+.bienvenidos{
+    display: grid;
+    margin-left: 0%;
+    padding: 0%;
+    background-color: brown;
+    height: 65px;
+    text-align: center;
+}
+
+#main{
+    display: flex;
+    flex-direction: column;
+}
+
+.columna_1{
+    background-color: crimson;
+    display: inline-flex;
+    padding: 10px;
+}
+
+.columna_1 a{
+    display: inline-flex;
+    background-color: crimson;
+    width: 100%;
+}
+
+.columna_2{
+    background: linear-gradient( rgb(211, 30, 172), rgb(26, 2, 20)  );
+    display: inline-flex;
+    padding: 10px;
+}
+
+.columna_2 a{
+    background: linear-gradient( rgb(211, 30, 172), rgb(26, 2, 20)  );
+    display: inline-flex;
+    width: 100%;
+}
+
+.columna_3{
+    background-color: darkcyan;
+    display: inline-flex;
+    padding: 10px;
+}
+
+.columna_3 a{
+    background-color: darkcyan;
+    display: inline-flex;
+    width: 100%;
+}
+
+.columna_4{
+    background-color: darkmagenta;
+    display: inline-flex;
+    padding: 10px;
+}
+
+.columna_4 a{
+    background-color: darkmagenta;
+    display: inline-flex;
+    width: 100%;
+}
+
+.columna_5{
+    background-color: deeppink;
+    display: inline-flex;
+    padding: 10px;
+}
+
+.columna_5 a{
+    background-color: deeppink;
+    display: inline-flex;
+    width: 100%;
+}
+
+.footer{
+    background-color: firebrick;
+}
+
+#body_cuenta{
+    width: 1250px;
+    height: 700px;
+    background-color: blueviolet;
+}
+
+.tamaño_de_imagenes{
+    width: 250px;
+    height: 180px;
+}
